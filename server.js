@@ -25,7 +25,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
   const msg = 'Hello World, my host IPv4 is: ';
-  const ver = ' version: 1'
+  const ver = ' version: 2'
   res.send(msg + ipAddresses + ver);
 });
 
